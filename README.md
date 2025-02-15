@@ -1,0 +1,2 @@
+# Objective-C KVO Memory Management Bug
+This repository demonstrates a common yet subtle bug in Objective-C related to Key-Value Observing (KVO) and memory management.  Failure to properly remove observers before the observed object is deallocated can result in crashes. The example shows how to reproduce the issue and provides a corrected version with proper observer removal.
